@@ -1,8 +1,9 @@
 import { Event } from "../Event/Event";
+import { EventList } from "./PageBoard.styled";
 
 export const PageBoard = ({ events }) => {
   return (
-    <ul>
+    <EventList>
       {events.map((event, index) => (
         <li key={index}>
           <Event
@@ -14,6 +15,6 @@ export const PageBoard = ({ events }) => {
           />
         </li>
       ))}
-    </ul>
+</EventList>
   );
 };

@@ -1,6 +1,9 @@
+import { MainTitle } from "./Title.styled"
+
 const Title = ( props ) => {
     return(
-        <h1>24th Core Worlds Coalition Conference</h1>
+        
+        <MainTitle>24th Core Worlds Coalition Conference</MainTitle>
     )
 }
 
